@@ -8,11 +8,18 @@
         <title>Js Biglietto treno form</title>
     </head>
     <body>
-        <imput type="text" id="nome-cognome" name="nome-cognome"></imput>
-        <imput type="text" id="km" name="km"></imput>
-        <select id="eta" name="eta-user"></select>
-        <script src="js/script.js"></script>
-        <option value="Maggiorenne"></option>
-        <option value="Over 65"></option>
+        <form>
+            <label for="nome-cognome">Nome e Cognome</label>
+            <input type="text" id="nome" name="" value=""></input>
+            <label for="km">Km da percorrere</label>
+            <input type="text" id="km" name=""></input>
+            <label for="eta-user">Fascia d'età</label>
+            <select id="eta" name="" form="maggiorenne-over">
+                <option value="Maggiorenne">Maggiorenne</option>
+                <option value="Over 65">Over 65</option>
+            </select>
+            <button id="genera">genera</button>
+            <h2 id="passegero"></h2>
+        </form>
     </body>
 </html>
