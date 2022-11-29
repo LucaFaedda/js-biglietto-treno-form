@@ -24,9 +24,10 @@
         }
 
         document.getElementById('put_nome').innerText = name_and_surname
-        document.getElementById('put_prezzo').innerText = prezzo
+        document.getElementById('put_prezzo').innerText = prezzo + " Euro"
 
 
     })
 
 
+// mi ero bloccato perchè avevo messo tutto dentro form in HTML
